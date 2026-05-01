@@ -10,10 +10,6 @@ CPU: 26%  |  RAM: 8.8/39.0G  |  TEMP: 96°C  |  🔋BAT: 78%  |  PWR: +20W  |  N
 
 <div align="center">
   <img src="screenshots/demo.gif" alt="Demo">
-  <br><br>
-  <img src="screenshots/general_settings.png" alt="General Settings">
-  <img src="screenshots/metrics_settings.png" alt="Metrics Settings">
-  <img src="screenshots/icons_settings.png" alt="Icons Settings">
 </div>
 
 ## Features
@@ -39,6 +35,7 @@ Install directly from the KDE Store:
 👉 **[Get KVitals on the KDE Store](https://www.pling.com/p/2347917/)**
 
 Or from within KDE Plasma:
+
 1. Right-click on the panel → **Add Widgets...**
 2. Click **Get New Widgets...** → **Download New Plasma Widgets...**
 3. Search for **"KVitals"**
