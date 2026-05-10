@@ -11,10 +11,11 @@ ColumnLayout {
 
     required property var metricsModel
     required property color baseTextColor
+    required property bool fontBold
 
     PlasmaComponents.Label {
         text: "KVitals"
-        font.bold: true
+        font.bold: true // intentional: title always bold for visual hierarchy
         font.pixelSize: Kirigami.Theme.defaultFont.pixelSize * 1.2
         Layout.alignment: Qt.AlignHCenter
         Layout.bottomMargin: Kirigami.Units.smallSpacing
@@ -38,7 +39,7 @@ ColumnLayout {
             }
             PlasmaComponents.Label {
                 text: modelData.value
-                font.bold: true
+                font.bold: fullView.fontBold
                 color: modelData.color
                 horizontalAlignment: Text.AlignRight
             }
